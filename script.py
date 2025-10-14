@@ -5,7 +5,7 @@ Swim Dojo Workout Scraper and HTML Table Generator
 Fetches the Swim Dojo archive page, extracts workout names, categories, and URLs,
 then generates:
   - workouts_by_category.json : structured data
-  - workouts_table.html        : interactive table view with filters
+  - index.html        : interactive table view with filters
   - total_distance_cache.json : caches total distances per workout to avoid repeated page requests
 """
 
@@ -22,7 +22,7 @@ from bs4 import BeautifulSoup
 BASE_URL = "https://www.swimdojo.com"
 ARCHIVE_URL = f"{BASE_URL}/archive"
 OUTPUT_JSON = Path("workouts_by_category.json")
-OUTPUT_HTML = Path("workouts_table.html")
+OUTPUT_HTML = Path("index.html")
 CACHE_JSON = Path("total_distance_cache.json")
 
 
