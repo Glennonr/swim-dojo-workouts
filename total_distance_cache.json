@@ -1,192 +1,774 @@
 {
-  "Shortfin Squid": 900,
-  "Sea Otter": 800,
-  "Scaly Foot Snail": 1000,
-  "Sea Gooseberry": 500,
-  "Christmas Tree Worm": 900,
-  "Acorn Barnacle": 1000,
-  "Leopard Wrasse": 900,
-  "Marine Toad": 800,
-  "Bubblegum Coral": 900,
-  "Atlantic Wolffish": 800,
-  "Hawksbill Turtle": 900,
-  "Banded Butterfly Fish": 500,
-  "Red-legged Cormorant": 700,
-  "Gentoo Penguin": 1000,
-  "Flashlight Fish": 700,
-  "White Shrimp": 900,
-  "Frilled Shark": 1000,
-  "Barrel Sponge": 900,
-  "Whiptail Gulper": 900,
-  "Skipjack Tuna": 800,
-  "Krill": 800,
-  "Emperor Shrimp": 800,
-  "Barnacle": 600,
-  "Anchovy": 600,
-  "Angelfish": 1000,
-  "Seahorse": 900,
-  "Sea Bunny": 1200,
-  "Marrus Orthocanna": 1750,
-  "Red Spotted Blenny": 1600,
-  "Squirrelfish": 1400,
-  "Clownfish": 2000,
-  "Hairy Frogfish": 1300,
-  "Sea Pen": 1800,
-  "Anglerfish": 2000,
-  "Juvenile Emperor Angelfish": 1900,
-  "Lizard Island Octopus": 1100,
-  "Leafy Seadragon": 1150,
-  "Squidworm": 1400,
-  "Argentine Shortfin Squid": 1500,
-  "Caribbean Spiny Lobster": 1100,
-  "Gray Seal": 1000,
-  "Bicolored Parrotfish": 1200,
-  "African Basslet": 1400,
-  "Australian Angelshark": 1600,
-  "Yellow Headed Jawfish": 1200,
-  "Atlantic Cod": 1200,
-  "Green Turtle": 1200,
-  "Juan Fernandez Fur Seal": 1500,
-  "Dumbo Octopus": 2000,
-  "Harp Seal": 1200,
-  "Flatback Turtle": 1300,
-  "Chambered Nautilus": 1600,
-  "Wahoo (Find Your Base - Intermediate)": 1400,
-  "Bluebanded Goby": 1700,
-  "Red King Crab": 1800,
-  "Tiger Prawn": 1200,
-  "Granulated Sea Star": 1700,
-  "Porcupine Ray": 1600,
-  "Atlantic Trumpetfish": 1500,
-  "Slender Snipe Eel": 2650,
-  "Halimeda Ghost Pipefish": 2800,
-  "Jawfish": 3000,
-  "Enypniastes Eximia": 2900,
-  "Brittle Star": 2300,
-  "Coconut Octopus": 3000,
-  "Telescope Octopus": 3000,
-  "Polkdot Nudibranch": 2900,
-  "Clown Frogfish": 2300,
-  "Red Handfish": 2600,
-  "Threadfin Butterflyfish": 2600,
-  "Regal Tang": 200023002750,
-  "Venus Flytrap Anemone": 2200,
-  "Mandarinfish": 2500,
-  "Napoleon Wrasse": 2700,
-  "Pycnogonid Sea Spider": 2000,
-  "Sea Angel": 2300,
-  "Crossota Norvegica Jellyfish": 2600,
-  "Acadian Redfish": 2300,
-  "Adorned Wrasse": 2500,
-  "Yellow Tube Sponge": 2200,
-  "Horseshoe Crab": 2300,
-  "Gigantic Triton": 2100,
-  "Crown of Thorns Starfish": 2100,
-  "Common Torpedo": 2600,
-  "Tripod Spiderfish": 2900,
-  "Flounder": 2200,
-  "Little Auk": 2900,
-  "Oarfish (Find Your Base - Advanced)": 2700,
-  "Beluga Sturgeon": 2100,
-  "Southern Blue-Ringed Octopus": 2500,
-  "Spanish Dancer": 2700,
-  "Lion Fish": 2100,
-  "Siamese Fighting Fish": 2000,
-  "Hermit Crab": 2600,
-  "Lions Mane Jellyfish": 2400,
-  "Ravioli Starfish": 3400,
-  "Pacific Spiny Lumpsucker": 3500,
-  "Northern Stargazer": 3500,
-  "Axolotl": 3000,
-  "Bobtail Squid": 3200,
-  "Leaf Slug": 3300,
-  "Red Lipped Batfish": 3500,
-  "Arctic Hydromedusa": 3300,
-  "Japanese Spider Crab": 3300,
-  "Porcupinefish": 3200,
-  "Icefish": 3300,
-  "Coelancanth": 3200,
-  "Banggai Cardinalfish": 3100,
-  "Symphysodon Discus": 3500,
-  "Blobfish": 3700,
-  "Sixgill Shark": 3400,
-  "Bioluminescent Octopus": 3900,
-  "American Lobster": 3600,
-  "Giant Clam": 3500,
-  "Abbot's Booby": 4000,
-  "Stone Triggerfish": 4000,
-  "Kemp's Ridley Turtle": 3600,
-  "Barndoor Skate": 3800,
-  "Adelie Penguin": 3900,
-  "Atlantic Bluefin Tuna": 3600,
-  "Atlantic Puffin": 3200,
-  "Common Fangtooth": 3100,
-  "Humboldt Squid": 3900,
-  "Blue Glaucus": 3500,
-  "Mako Shark": 3300,
-  "Bearded Seal": 3200,
-  "Dottyback": 3500,
-  "Blue Crab": 3500,
-  "Albacore": 3400,
-  "Bottlenose Dolphin": 3000,
-  "Wobbegong Shark": 3000,
-  "Ocean Ravioli": 4100,
-  "Munnopis Isopod": 4200,
-  "Boxfish": 4500,
-  "Smooth Trunkfish": 4500,
-  "Terrible Claw Lobster": 4100,
-  "Sea Pig": 4300,
-  "Halitrephes Massi Jellyfish": 4500,
-  "Moorish Idol": 4600,
-  "Ribbon Eel": 4200,
-  "Vampire Squid": 4100,
-  "Lysianassoid Amphipod": 4700,
-  "Bobbit Worm": 4500,
-  "Pink See Through Fantasia": 4000,
-  "Cockscomb Cup Coral": 4400,
-  "Peacock Mantis Shrimp": 4000,
-  "Rainbow Wrasse": 4400,
-  "Giant Caribbean Sea Aneome": 4400,
-  "Loggerhead Turtle": 420023200,
-  "Japanese Flying Fish": 4900,
-  "Leopard Seal": 4500,
-  "Acute-Jawed Mullet": 4100,
-  "Marine Iguana": 4200,
-  "Ocean Sunfish": 4600,
-  "Broadclub Cuttlefish": 4200,
-  "Fin Whale": 4200,
-  "Moon Jelly": 4200,
-  "Chilean Basket Star": 4500,
-  "Dragonfish": 4600,
-  "Spiny Dogfish": 4400,
-  "Goblin Shark": 6000,
-  "Box Crab": 6000,
-  "Cheerleader Crab": 10000,
-  "Coffinfish": 7200,
-  "Viperfish": 7600,
-  "Feather Star": 5000,
-  "Gulper Eel": 5400,
-  "Giant Isopod": 5400,
-  "Sea Nettles": 5100,
-  "Giant Kelp": 5300,
-  "Bowhead Whale": 5100,
-  "Beluga Whale": 5000,
-  "Caribbean Reef Octopus": 5500,
-  "Flamingo Tongue": 5600,
-  "Blue Marlin": 5300,
-  "Flameback Nudibranch": 5000,
-  "Spinner Shark": 7400,
-  "Megamouth Shark": 5100,
-  "Flying Gurnard": 4400,
-  "Bull Shark": 5600,
-  "Basking Shark": 4800,
-  "Flapjack Octopus": 1400,
-  "Guppy (Find Your Base - Beginner)": 500,
-  "Chimera": 900,
-  "Cushion Star": 700,
-  "Sand Dollar": 800,
-  "Dugong (Sea Cow)": 3100,
-  "Yellow-Lipped Sea Krait": 290020,
-  "Clown Triggerfish": 2000,
-  "Sea Wasp": 2300
+  "Shortfin Squid": {
+    "TotalDistance": 900,
+    "Summary": ""
+  },
+  "Sea Otter": {
+    "TotalDistance": 800,
+    "Summary": ""
+  },
+  "Scaly Foot Snail": {
+    "TotalDistance": 1000,
+    "Summary": ""
+  },
+  "Sea Gooseberry": {
+    "TotalDistance": 500,
+    "Summary": ""
+  },
+  "Christmas Tree Worm": {
+    "TotalDistance": 900,
+    "Summary": ""
+  },
+  "Acorn Barnacle": {
+    "TotalDistance": 1000,
+    "Summary": ""
+  },
+  "Leopard Wrasse": {
+    "TotalDistance": 900,
+    "Summary": ""
+  },
+  "Marine Toad": {
+    "TotalDistance": 800,
+    "Summary": ""
+  },
+  "Bubblegum Coral": {
+    "TotalDistance": 900,
+    "Summary": ""
+  },
+  "Atlantic Wolffish": {
+    "TotalDistance": 800,
+    "Summary": ""
+  },
+  "Hawksbill Turtle": {
+    "TotalDistance": 900,
+    "Summary": ""
+  },
+  "Banded Butterfly Fish": {
+    "TotalDistance": 500,
+    "Summary": ""
+  },
+  "Red-legged Cormorant": {
+    "TotalDistance": 700,
+    "Summary": ""
+  },
+  "Gentoo Penguin": {
+    "TotalDistance": 1000,
+    "Summary": ""
+  },
+  "Flashlight Fish": {
+    "TotalDistance": 700,
+    "Summary": ""
+  },
+  "White Shrimp": {
+    "TotalDistance": 900,
+    "Summary": ""
+  },
+  "Frilled Shark": {
+    "TotalDistance": 1000,
+    "Summary": ""
+  },
+  "Barrel Sponge": {
+    "TotalDistance": 900,
+    "Summary": ""
+  },
+  "Whiptail Gulper": {
+    "TotalDistance": 900,
+    "Summary": ""
+  },
+  "Skipjack Tuna": {
+    "TotalDistance": 800,
+    "Summary": ""
+  },
+  "Krill": {
+    "TotalDistance": 800,
+    "Summary": ""
+  },
+  "Emperor Shrimp": {
+    "TotalDistance": 800,
+    "Summary": ""
+  },
+  "Barnacle": {
+    "TotalDistance": 600,
+    "Summary": ""
+  },
+  "Anchovy": {
+    "TotalDistance": 600,
+    "Summary": ""
+  },
+  "Angelfish": {
+    "TotalDistance": 1000,
+    "Summary": ""
+  },
+  "Seahorse": {
+    "TotalDistance": 900,
+    "Summary": ""
+  },
+  "Sea Bunny": {
+    "TotalDistance": 1200,
+    "Summary": ""
+  },
+  "Marrus Orthocanna": {
+    "TotalDistance": 1750,
+    "Summary": ""
+  },
+  "Red Spotted Blenny": {
+    "TotalDistance": 1600,
+    "Summary": ""
+  },
+  "Squirrelfish": {
+    "TotalDistance": 1400,
+    "Summary": ""
+  },
+  "Clownfish": {
+    "TotalDistance": 2000,
+    "Summary": ""
+  },
+  "Hairy Frogfish": {
+    "TotalDistance": 1300,
+    "Summary": ""
+  },
+  "Sea Pen": {
+    "TotalDistance": 1800,
+    "Summary": ""
+  },
+  "Anglerfish": {
+    "TotalDistance": 2000,
+    "Summary": ""
+  },
+  "Juvenile Emperor Angelfish": {
+    "TotalDistance": 1900,
+    "Summary": ""
+  },
+  "Lizard Island Octopus": {
+    "TotalDistance": 1100,
+    "Summary": ""
+  },
+  "Leafy Seadragon": {
+    "TotalDistance": 1150,
+    "Summary": ""
+  },
+  "Squidworm": {
+    "TotalDistance": 1400,
+    "Summary": ""
+  },
+  "Argentine Shortfin Squid": {
+    "TotalDistance": 1500,
+    "Summary": ""
+  },
+  "Caribbean Spiny Lobster": {
+    "TotalDistance": 1100,
+    "Summary": ""
+  },
+  "Gray Seal": {
+    "TotalDistance": 1000,
+    "Summary": ""
+  },
+  "Bicolored Parrotfish": {
+    "TotalDistance": 1200,
+    "Summary": ""
+  },
+  "African Basslet": {
+    "TotalDistance": 1400,
+    "Summary": ""
+  },
+  "Australian Angelshark": {
+    "TotalDistance": 1600,
+    "Summary": ""
+  },
+  "Yellow Headed Jawfish": {
+    "TotalDistance": 1200,
+    "Summary": ""
+  },
+  "Atlantic Cod": {
+    "TotalDistance": 1200,
+    "Summary": ""
+  },
+  "Green Turtle": {
+    "TotalDistance": 1200,
+    "Summary": ""
+  },
+  "Juan Fernandez Fur Seal": {
+    "TotalDistance": 1500,
+    "Summary": ""
+  },
+  "Dumbo Octopus": {
+    "TotalDistance": 2000,
+    "Summary": ""
+  },
+  "Harp Seal": {
+    "TotalDistance": 1200,
+    "Summary": ""
+  },
+  "Flatback Turtle": {
+    "TotalDistance": 1300,
+    "Summary": ""
+  },
+  "Chambered Nautilus": {
+    "TotalDistance": 1600,
+    "Summary": ""
+  },
+  "Wahoo (Find Your Base - Intermediate)": {
+    "TotalDistance": 1400,
+    "Summary": ""
+  },
+  "Bluebanded Goby": {
+    "TotalDistance": 1700,
+    "Summary": ""
+  },
+  "Red King Crab": {
+    "TotalDistance": 1800,
+    "Summary": ""
+  },
+  "Tiger Prawn": {
+    "TotalDistance": 1200,
+    "Summary": ""
+  },
+  "Granulated Sea Star": {
+    "TotalDistance": 1700,
+    "Summary": ""
+  },
+  "Porcupine Ray": {
+    "TotalDistance": 1600,
+    "Summary": ""
+  },
+  "Atlantic Trumpetfish": {
+    "TotalDistance": 1500,
+    "Summary": ""
+  },
+  "Slender Snipe Eel": {
+    "TotalDistance": 2650,
+    "Summary": ""
+  },
+  "Halimeda Ghost Pipefish": {
+    "TotalDistance": 2800,
+    "Summary": ""
+  },
+  "Jawfish": {
+    "TotalDistance": 3000,
+    "Summary": ""
+  },
+  "Enypniastes Eximia": {
+    "TotalDistance": 2900,
+    "Summary": ""
+  },
+  "Brittle Star": {
+    "TotalDistance": 2300,
+    "Summary": ""
+  },
+  "Coconut Octopus": {
+    "TotalDistance": 3000,
+    "Summary": ""
+  },
+  "Telescope Octopus": {
+    "TotalDistance": 3000,
+    "Summary": ""
+  },
+  "Polkdot Nudibranch": {
+    "TotalDistance": 2900,
+    "Summary": ""
+  },
+  "Clown Frogfish": {
+    "TotalDistance": 2300,
+    "Summary": ""
+  },
+  "Red Handfish": {
+    "TotalDistance": 2600,
+    "Summary": ""
+  },
+  "Threadfin Butterflyfish": {
+    "TotalDistance": 2600,
+    "Summary": ""
+  },
+  "Regal Tang": {
+    "TotalDistance": 200023002750,
+    "Summary": ""
+  },
+  "Venus Flytrap Anemone": {
+    "TotalDistance": 2200,
+    "Summary": ""
+  },
+  "Mandarinfish": {
+    "TotalDistance": 2500,
+    "Summary": ""
+  },
+  "Napoleon Wrasse": {
+    "TotalDistance": 2700,
+    "Summary": ""
+  },
+  "Pycnogonid Sea Spider": {
+    "TotalDistance": 2000,
+    "Summary": ""
+  },
+  "Sea Angel": {
+    "TotalDistance": 2300,
+    "Summary": ""
+  },
+  "Crossota Norvegica Jellyfish": {
+    "TotalDistance": 2600,
+    "Summary": ""
+  },
+  "Acadian Redfish": {
+    "TotalDistance": 2300,
+    "Summary": ""
+  },
+  "Adorned Wrasse": {
+    "TotalDistance": 2500,
+    "Summary": ""
+  },
+  "Yellow Tube Sponge": {
+    "TotalDistance": 2200,
+    "Summary": ""
+  },
+  "Horseshoe Crab": {
+    "TotalDistance": 2300,
+    "Summary": ""
+  },
+  "Gigantic Triton": {
+    "TotalDistance": 2100,
+    "Summary": ""
+  },
+  "Crown of Thorns Starfish": {
+    "TotalDistance": 2100,
+    "Summary": ""
+  },
+  "Common Torpedo": {
+    "TotalDistance": 2600,
+    "Summary": ""
+  },
+  "Tripod Spiderfish": {
+    "TotalDistance": 2900,
+    "Summary": ""
+  },
+  "Flounder": {
+    "TotalDistance": 2200,
+    "Summary": ""
+  },
+  "Little Auk": {
+    "TotalDistance": 2900,
+    "Summary": ""
+  },
+  "Oarfish (Find Your Base - Advanced)": {
+    "TotalDistance": 2700,
+    "Summary": ""
+  },
+  "Beluga Sturgeon": {
+    "TotalDistance": 2100,
+    "Summary": ""
+  },
+  "Southern Blue-Ringed Octopus": {
+    "TotalDistance": 2500,
+    "Summary": ""
+  },
+  "Spanish Dancer": {
+    "TotalDistance": 2700,
+    "Summary": ""
+  },
+  "Lion Fish": {
+    "TotalDistance": 2100,
+    "Summary": ""
+  },
+  "Siamese Fighting Fish": {
+    "TotalDistance": 2000,
+    "Summary": ""
+  },
+  "Hermit Crab": {
+    "TotalDistance": 2600,
+    "Summary": ""
+  },
+  "Lions Mane Jellyfish": {
+    "TotalDistance": 2400,
+    "Summary": ""
+  },
+  "Ravioli Starfish": {
+    "TotalDistance": 3400,
+    "Summary": ""
+  },
+  "Pacific Spiny Lumpsucker": {
+    "TotalDistance": 3500,
+    "Summary": ""
+  },
+  "Northern Stargazer": {
+    "TotalDistance": 3500,
+    "Summary": ""
+  },
+  "Axolotl": {
+    "TotalDistance": 3000,
+    "Summary": ""
+  },
+  "Bobtail Squid": {
+    "TotalDistance": 3200,
+    "Summary": ""
+  },
+  "Leaf Slug": {
+    "TotalDistance": 3300,
+    "Summary": ""
+  },
+  "Red Lipped Batfish": {
+    "TotalDistance": 3500,
+    "Summary": ""
+  },
+  "Arctic Hydromedusa": {
+    "TotalDistance": 3300,
+    "Summary": ""
+  },
+  "Japanese Spider Crab": {
+    "TotalDistance": 3300,
+    "Summary": ""
+  },
+  "Porcupinefish": {
+    "TotalDistance": 3200,
+    "Summary": ""
+  },
+  "Icefish": {
+    "TotalDistance": 3300,
+    "Summary": ""
+  },
+  "Coelancanth": {
+    "TotalDistance": 3200,
+    "Summary": ""
+  },
+  "Banggai Cardinalfish": {
+    "TotalDistance": 3100,
+    "Summary": ""
+  },
+  "Symphysodon Discus": {
+    "TotalDistance": 3500,
+    "Summary": ""
+  },
+  "Blobfish": {
+    "TotalDistance": 3700,
+    "Summary": ""
+  },
+  "Sixgill Shark": {
+    "TotalDistance": 3400,
+    "Summary": ""
+  },
+  "Bioluminescent Octopus": {
+    "TotalDistance": 3900,
+    "Summary": ""
+  },
+  "American Lobster": {
+    "TotalDistance": 3600,
+    "Summary": ""
+  },
+  "Giant Clam": {
+    "TotalDistance": 3500,
+    "Summary": ""
+  },
+  "Abbot's Booby": {
+    "TotalDistance": 4000,
+    "Summary": ""
+  },
+  "Stone Triggerfish": {
+    "TotalDistance": 4000,
+    "Summary": ""
+  },
+  "Kemp's Ridley Turtle": {
+    "TotalDistance": 3600,
+    "Summary": ""
+  },
+  "Barndoor Skate": {
+    "TotalDistance": 3800,
+    "Summary": ""
+  },
+  "Adelie Penguin": {
+    "TotalDistance": 3900,
+    "Summary": ""
+  },
+  "Atlantic Bluefin Tuna": {
+    "TotalDistance": 3600,
+    "Summary": ""
+  },
+  "Atlantic Puffin": {
+    "TotalDistance": 3200,
+    "Summary": ""
+  },
+  "Common Fangtooth": {
+    "TotalDistance": 3100,
+    "Summary": ""
+  },
+  "Humboldt Squid": {
+    "TotalDistance": 3900,
+    "Summary": ""
+  },
+  "Blue Glaucus": {
+    "TotalDistance": 3500,
+    "Summary": ""
+  },
+  "Mako Shark": {
+    "TotalDistance": 3300,
+    "Summary": ""
+  },
+  "Bearded Seal": {
+    "TotalDistance": 3200,
+    "Summary": ""
+  },
+  "Dottyback": {
+    "TotalDistance": 3500,
+    "Summary": ""
+  },
+  "Blue Crab": {
+    "TotalDistance": 3500,
+    "Summary": ""
+  },
+  "Albacore": {
+    "TotalDistance": 3400,
+    "Summary": ""
+  },
+  "Bottlenose Dolphin": {
+    "TotalDistance": 3000,
+    "Summary": ""
+  },
+  "Wobbegong Shark": {
+    "TotalDistance": 3000,
+    "Summary": ""
+  },
+  "Ocean Ravioli": {
+    "TotalDistance": 4100,
+    "Summary": ""
+  },
+  "Munnopis Isopod": {
+    "TotalDistance": 4200,
+    "Summary": ""
+  },
+  "Boxfish": {
+    "TotalDistance": 4500,
+    "Summary": ""
+  },
+  "Smooth Trunkfish": {
+    "TotalDistance": 4500,
+    "Summary": ""
+  },
+  "Terrible Claw Lobster": {
+    "TotalDistance": 4100,
+    "Summary": ""
+  },
+  "Sea Pig": {
+    "TotalDistance": 4300,
+    "Summary": ""
+  },
+  "Halitrephes Massi Jellyfish": {
+    "TotalDistance": 4500,
+    "Summary": ""
+  },
+  "Moorish Idol": {
+    "TotalDistance": 4600,
+    "Summary": ""
+  },
+  "Ribbon Eel": {
+    "TotalDistance": 4200,
+    "Summary": ""
+  },
+  "Vampire Squid": {
+    "TotalDistance": 4100,
+    "Summary": ""
+  },
+  "Lysianassoid Amphipod": {
+    "TotalDistance": 4700,
+    "Summary": ""
+  },
+  "Bobbit Worm": {
+    "TotalDistance": 4500,
+    "Summary": ""
+  },
+  "Pink See Through Fantasia": {
+    "TotalDistance": 4000,
+    "Summary": ""
+  },
+  "Cockscomb Cup Coral": {
+    "TotalDistance": 4400,
+    "Summary": ""
+  },
+  "Peacock Mantis Shrimp": {
+    "TotalDistance": 4000,
+    "Summary": ""
+  },
+  "Rainbow Wrasse": {
+    "TotalDistance": 4400,
+    "Summary": ""
+  },
+  "Giant Caribbean Sea Aneome": {
+    "TotalDistance": 4400,
+    "Summary": ""
+  },
+  "Loggerhead Turtle": {
+    "TotalDistance": 420023200,
+    "Summary": ""
+  },
+  "Japanese Flying Fish": {
+    "TotalDistance": 4900,
+    "Summary": ""
+  },
+  "Leopard Seal": {
+    "TotalDistance": 4500,
+    "Summary": ""
+  },
+  "Acute-Jawed Mullet": {
+    "TotalDistance": 4100,
+    "Summary": ""
+  },
+  "Marine Iguana": {
+    "TotalDistance": 4200,
+    "Summary": ""
+  },
+  "Ocean Sunfish": {
+    "TotalDistance": 4600,
+    "Summary": ""
+  },
+  "Broadclub Cuttlefish": {
+    "TotalDistance": 4200,
+    "Summary": ""
+  },
+  "Fin Whale": {
+    "TotalDistance": 4200,
+    "Summary": ""
+  },
+  "Moon Jelly": {
+    "TotalDistance": 4200,
+    "Summary": ""
+  },
+  "Chilean Basket Star": {
+    "TotalDistance": 4500,
+    "Summary": ""
+  },
+  "Dragonfish": {
+    "TotalDistance": 4600,
+    "Summary": ""
+  },
+  "Spiny Dogfish": {
+    "TotalDistance": 4400,
+    "Summary": ""
+  },
+  "Goblin Shark": {
+    "TotalDistance": 6000,
+    "Summary": ""
+  },
+  "Box Crab": {
+    "TotalDistance": 6000,
+    "Summary": ""
+  },
+  "Cheerleader Crab": {
+    "TotalDistance": 10000,
+    "Summary": ""
+  },
+  "Coffinfish": {
+    "TotalDistance": 7200,
+    "Summary": ""
+  },
+  "Viperfish": {
+    "TotalDistance": 7600,
+    "Summary": ""
+  },
+  "Feather Star": {
+    "TotalDistance": 5000,
+    "Summary": ""
+  },
+  "Gulper Eel": {
+    "TotalDistance": 5400,
+    "Summary": ""
+  },
+  "Giant Isopod": {
+    "TotalDistance": 5400,
+    "Summary": ""
+  },
+  "Sea Nettles": {
+    "TotalDistance": 5100,
+    "Summary": ""
+  },
+  "Giant Kelp": {
+    "TotalDistance": 5300,
+    "Summary": ""
+  },
+  "Bowhead Whale": {
+    "TotalDistance": 5100,
+    "Summary": ""
+  },
+  "Beluga Whale": {
+    "TotalDistance": 5000,
+    "Summary": ""
+  },
+  "Caribbean Reef Octopus": {
+    "TotalDistance": 5500,
+    "Summary": ""
+  },
+  "Flamingo Tongue": {
+    "TotalDistance": 5600,
+    "Summary": ""
+  },
+  "Blue Marlin": {
+    "TotalDistance": 5300,
+    "Summary": ""
+  },
+  "Flameback Nudibranch": {
+    "TotalDistance": 5000,
+    "Summary": ""
+  },
+  "Spinner Shark": {
+    "TotalDistance": 7400,
+    "Summary": ""
+  },
+  "Megamouth Shark": {
+    "TotalDistance": 5100,
+    "Summary": ""
+  },
+  "Flying Gurnard": {
+    "TotalDistance": 4400,
+    "Summary": ""
+  },
+  "Bull Shark": {
+    "TotalDistance": 5600,
+    "Summary": ""
+  },
+  "Basking Shark": {
+    "TotalDistance": 4800,
+    "Summary": ""
+  },
+  "Flapjack Octopus": {
+    "TotalDistance": 1400,
+    "Summary": ""
+  },
+  "Guppy (Find Your Base - Beginner)": {
+    "TotalDistance": 500,
+    "Summary": ""
+  },
+  "Chimera": {
+    "TotalDistance": 900,
+    "Summary": ""
+  },
+  "Cushion Star": {
+    "TotalDistance": 700,
+    "Summary": ""
+  },
+  "Sand Dollar": {
+    "TotalDistance": 800,
+    "Summary": ""
+  },
+  "Dugong (Sea Cow)": {
+    "TotalDistance": 3100,
+    "Summary": ""
+  },
+  "Yellow-Lipped Sea Krait": {
+    "TotalDistance": 290020,
+    "Summary": ""
+  },
+  "Clown Triggerfish": {
+    "TotalDistance": 2000,
+    "Summary": ""
+  },
+  "Sea Wasp": {
+    "TotalDistance": 2300,
+    "Summary": ""
+  },
+  "Thornback Cowfish": {
+    "TotalDistance": null,
+    "Summary": "Don't forget to reference these helpful links as needed:The Basics,Glossary,How To Read a Workout,Pacing Table."
+  },
+  "Hourglass Dolphin": {
+    "TotalDistance": null,
+    "Summary": "Open-water sessions are fun when done in a group environment and simulate race conditions with other athletes. It's easy to go for an open-water swim on your own and do intervals, but that won't prepare you as well for race conditions (with arms and legs are flying around you and having to do buoy turns and navigation). I get my athletes do their open water sessions as key swims for the week. My advice: Gather a group of training partners and hit the water!"
+  },
+  "Pinecone Fish": {
+    "TotalDistance": null,
+    "Summary": "Don't forget to reference these helpful links as needed:The Basics,Glossary,How To Read a Workout,Pacing Table."
+  }
 }

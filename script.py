@@ -1,12 +1,10 @@
 """
-Swim Dojo Workout Scraper and HTML Table Generator
---------------------------------------------------
+Swim Dojo Workout Scraper (JSON Only, with Summary from workouts.json)
+----------------------------------------------------------------------
 
-Fetches the Swim Dojo archive page, extracts workout names, categories, and URLs,
-then generates:
-  - workouts_by_category.json : structured data
-  - index.html        : interactive table view with filters
-  - total_distance_cache.json : caches total distances per workout to avoid repeated page requests
+Generates:
+  - workouts_by_category.json (with summary field)
+  - total_distance_cache.json
 """
 
 import json
@@ -18,17 +16,14 @@ from typing import Dict, List
 import requests
 from bs4 import BeautifulSoup
 
-
 BASE_URL = "https://www.swimdojo.com"
 ARCHIVE_URL = f"{BASE_URL}/archive"
+WORKOUTS_JSON = Path("workouts.json")  # source of summaries
 OUTPUT_JSON = Path("workouts_by_category.json")
-OUTPUT_HTML = Path("index.html")
 CACHE_JSON = Path("total_distance_cache.json")
 
 
-# --------------------------------------------------------------------------- #
-# Data Retrieval and Parsing
-# --------------------------------------------------------------------------- #
+# -------------------- Data Retrieval -------------------- #
 def fetch_archive_html(url: str) -> BeautifulSoup:
     response = requests.get(url, timeout=10)
     if response.status_code != 200:
@@ -62,12 +57,18 @@ def extract_workouts_by_category(soup: BeautifulSoup) -> tuple[Dict[str, List[st
     return by_category, workout_links
 
 
-# --------------------------------------------------------------------------- #
-# Total Distance Retrieval with Caching
-# --------------------------------------------------------------------------- #
+# -------------------- Cache -------------------- #
 def load_cache() -> dict:
     if CACHE_JSON.exists():
-        return json.loads(CACHE_JSON.read_text(encoding="utf-8"))
+        raw_cache = json.loads(CACHE_JSON.read_text(encoding="utf-8"))
+        # Convert old int-only format to dict format
+        fixed_cache = {}
+        for k, v in raw_cache.items():
+            if isinstance(v, dict):
+                fixed_cache[k] = v
+            else:
+                fixed_cache[k] = {"TotalDistance": v, "Summary": ""}
+        return fixed_cache
     return {}
 
 
@@ -76,8 +77,9 @@ def save_cache(cache: dict) -> None:
 
 
 def fetch_workout_total(url: str, cache: dict, name: str) -> int | None:
-    if name in cache:
-        return cache[name]
+    """Fetch total distance from workout page, cached"""
+    if name in cache and "TotalDistance" in cache[name]:
+        return cache[name]["TotalDistance"]
     try:
         resp = requests.get(url, timeout=10)
         if resp.status_code != 200:
@@ -90,16 +92,16 @@ def fetch_workout_total(url: str, cache: dict, name: str) -> int | None:
                 digits = "".join(c for c in text if c.isdigit())
                 if digits:
                     total_distance = int(digits)
-                    cache[name] = total_distance
+                    if name not in cache:
+                        cache[name] = {}
+                    cache[name]["TotalDistance"] = total_distance
                     return total_distance
         return None
     except Exception:
         return None
 
 
-# --------------------------------------------------------------------------- #
-# Data Transformation
-# --------------------------------------------------------------------------- #
+# -------------------- Data Transformation -------------------- #
 def invert_category_mapping(by_category: Dict[str, List[str]]) -> Dict[str, List[str]]:
     by_workout = defaultdict(set)
     for category, workouts in by_category.items():
@@ -108,11 +110,12 @@ def invert_category_mapping(by_category: Dict[str, List[str]]) -> Dict[str, List
     return {w: sorted(cats) for w, cats in by_workout.items()}
 
 
-def merge_workout_data(by_workout: Dict[str, List[str]], links: Dict[str, str], cache: dict) -> Dict[str, dict]:
+def merge_workout_data(by_workout: Dict[str, List[str]], links: Dict[str, str], cache: dict, summaries: dict) -> Dict[str, dict]:
     data = {}
     for name, cats in by_workout.items():
         url = links.get(name)
         total_distance = fetch_workout_total(url, cache, name) if url else None
+        summary = summaries.get(name, "")
         data[name] = {
             "Distance": [c for c in cats if any(x in c for x in ("-", "+"))],
             "Difficulty": [c for c in cats if c in ("Beginner", "Intermediate", "Advanced", "Hard", "Insane")],
@@ -123,150 +126,34 @@ def merge_workout_data(by_workout: Dict[str, List[str]], links: Dict[str, str], 
             ) and not any(x in c for x in ("-", "+"))],
             "url": url,
             "TotalDistance": total_distance,
+            "summary": summary,
         }
     return data
 
 
-# --------------------------------------------------------------------------- #
-# HTML Generation
-# --------------------------------------------------------------------------- #
-def categorize_filters(categories: List[str]) -> Dict[str, List[str]]:
-    distance = [c for c in categories if any(x in c for x in ("-", "+"))]
-    difficulty_order = ["Beginner", "Intermediate", "Advanced", "Hard", "Insane"]
-    difficulty = [c for c in difficulty_order if c in categories]
-    stroke = [c for c in categories if c in ("Freestyle", "Backstroke", "Breaststroke", "Butterfly", "IM", "Stroke")]
-    other = [c for c in categories if c not in distance + difficulty + stroke]
-    return {
-        "Distance": distance,
-        "Difficulty": difficulty,
-        "Stroke": stroke,
-        "Other": sorted(other),
-    }
-
-
-def build_html(data: Dict[str, dict]) -> str:
-    all_categories = sorted({c for v in data.values() for c in v["Distance"] + v["Difficulty"] + v["Stroke"] + v["Other"]})
-    grouped = categorize_filters(all_categories)
-
-    filters_html = ""
-    for section, cats in grouped.items():
-        if not cats:
-            continue
-        filters_html += f"<h3>{section}</h3>\n"
-        for c in cats:
-            filters_html += (
-                f'<label class="category-filter">'
-                f'<input type="checkbox" value="{c}" onchange="filter()"> {c}</label>\n'
-            )
-
-    rows_html = ""
-    for name, info in sorted(data.items()):
-        link = info["url"]
-        link_html = f'<a href="{link}" target="_blank">{name}</a>' if link else name
-        distance = ", ".join(info["Distance"])
-        difficulty = ", ".join(info["Difficulty"])
-        stroke = ", ".join(info["Stroke"])
-        other = ", ".join(info["Other"])
-        total_distance = info["TotalDistance"] if info["TotalDistance"] is not None else ""
-        rows_html += (
-            f"<tr>"
-            f"<td>{link_html}</td>"
-            f"<td>{distance}</td>"
-            f"<td>{difficulty}</td>"
-            f"<td>{stroke}</td>"
-            f"<td>{other}</td>"
-            f"<td>{total_distance}</td>"
-            f"</tr>\n"
-        )
-
-    return f"""<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Swim Workouts</title>
-<style>
-body {{ font-family: sans-serif; margin: 20px; }}
-table {{ border-collapse: collapse; width: 100%; }}
-th, td {{ border: 1px solid #ccc; padding: 6px; text-align: left; }}
-th {{ background: #f5f5f5; }}
-.category-filter {{ display: inline-block; margin: 5px 10px 5px 0; font-size: 1.1em; }}
-.category-filter input {{ transform: scale(1.5); margin-right: 8px; vertical-align: middle; }}
-.hidden {{ display: none; }}
-a {{ color: #0073e6; text-decoration: none; }}
-a:hover {{ text-decoration: underline; }}
-
-@media (max-width: 600px) {{
-    #filters {{ display: flex; flex-direction: column; }}
-    .category-filter {{ margin: 5px 0; }}
-    table {{ display: block; overflow-x: auto; }}
-    th, td {{ white-space: nowrap; }}
-}}
-</style>
-</head>
-<body>
-<h2>Swim Workouts</h2>
-<div id="filters">
-  <strong>Filter by category:</strong><br>
-  {filters_html}
-</div>
-<table id="workouts">
-  <thead>
-    <tr>
-      <th>Workout</th>
-      <th>Distance</th>
-      <th>Difficulty</th>
-      <th>Stroke</th>
-      <th>Other</th>
-      <th>Total Distance</th>
-    </tr>
-  </thead>
-  <tbody>{rows_html}</tbody>
-</table>
-<script>
-function filter() {{
-  const selected = [...document.querySelectorAll('#filters input:checked')].map(c => c.value);
-  const rows = document.querySelectorAll('#workouts tbody tr');
-  rows.forEach(r => {{
-    const cats = [
-        r.cells[1].innerText,
-        r.cells[2].innerText,
-        r.cells[3].innerText,
-        r.cells[4].innerText
-    ].join(',').split(',').map(c => c.trim()).filter(Boolean);
-    const match = selected.every(s => cats.includes(s));
-    r.classList.toggle('hidden', selected.length && !match);
-  }});
-}}
-</script>
-</body>
-</html>"""
-
-
-# --------------------------------------------------------------------------- #
-# Main Entry
-# --------------------------------------------------------------------------- #
-def main() -> None:
-    print("Starting")
+# -------------------- Main -------------------- #
+def main():
+    print("Starting JSON generation...")
     cache = load_cache()
-    print("Cache Loaded")
-    soup = fetch_archive_html(ARCHIVE_URL)
-    print("Archive Fetched")
-    by_category, workout_links = extract_workouts_by_category(soup)
-    print("Extracted workouts by category")
-    by_workout = invert_category_mapping(by_category)
-    print("Inverted category mapping")
-
-    full_data = merge_workout_data(by_workout, workout_links, cache)
-    print("Merged workout data")
-    save_cache(cache)
-    print("Saved cache")
+    print("Cache loaded")
     
+    # Load summaries from workouts.json
+    raw_workouts = json.loads(WORKOUTS_JSON.read_text(encoding="utf-8"))
+    summaries = {w["title"]: w.get("summary", "") for w in raw_workouts}
+    
+    soup = fetch_archive_html(ARCHIVE_URL)
+    print("Archive fetched")
+    
+    by_category, workout_links = extract_workouts_by_category(soup)
+    by_workout = invert_category_mapping(by_category)
+    
+    full_data = merge_workout_data(by_workout, workout_links, cache, summaries)
+    
+    save_cache(cache)
     OUTPUT_JSON.write_text(json.dumps(full_data, indent=2), encoding="utf-8")
-    OUTPUT_HTML.write_text(build_html(full_data), encoding="utf-8")
-
-    print("✅ Generated:")
+    
+    print("✅ JSON files generated with summaries:")
     print(f" - {OUTPUT_JSON.resolve()}")
-    print(f" - {OUTPUT_HTML.resolve()}")
     print(f" - {CACHE_JSON.resolve()}")
 
 
