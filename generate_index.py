@@ -43,7 +43,13 @@ def build_html(data):
         stroke = ", ".join(info.get("Stroke", []))
         other = ", ".join(info.get("Other", []))
         total_distance = info.get("TotalDistance", "")
-        summary = info.get("summary", "")
+        summary_full = info.get("summary", "")
+        if len(summary_full) > 150:
+            summary_display = summary_full[:150] + "…"
+            truncated_attr = 'data-truncated="true"'
+        else:
+            summary_display = summary_full
+            truncated_attr = 'data-truncated="false"'
         rows_html += (
             f"<tr>"
             f"<td>{link_html}</td>"
@@ -52,7 +58,7 @@ def build_html(data):
             f"<td>{stroke}</td>"
             f"<td>{other}</td>"
             f"<td>{total_distance}</td>"
-            f"<td>{summary}</td>"
+            f'<td class="summary" {truncated_attr} data-full="{summary_full}">{summary_display}</td>'
             f"</tr>\n"
         )
 
@@ -64,7 +70,7 @@ def build_html(data):
 <style>
 body {{ font-family: sans-serif; margin: 20px; }}
 table {{ border-collapse: collapse; width: 100%; }}
-th, td {{ border: 1px solid #ccc; padding: 6px; text-align: left; }}
+th, td {{ border: 1px solid #ccc; padding: 6px; text-align: left; vertical-align: top; }}
 th {{ background: #f5f5f5; }}
 .category-filter {{ display: inline-block; margin: 5px 10px 5px 0; font-size: 1.1em; }}
 .category-filter input {{ transform: scale(1.5); margin-right: 8px; vertical-align: middle; }}
@@ -72,11 +78,35 @@ th {{ background: #f5f5f5; }}
 a {{ color: #0073e6; text-decoration: none; }}
 a:hover {{ text-decoration: underline; }}
 
+td.summary {{
+  word-wrap: break-word;
+  max-width: 400px;
+  white-space: normal;
+  position: relative;
+  cursor: pointer;
+}}
+
+td.summary[data-truncated="true"]:hover::after {{
+  content: attr(data-full);
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 8px;
+  max-width: 400px;
+  white-space: normal;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}}
+
+.table-container {{ overflow-x: auto; }}
+
 @media (max-width: 600px) {{
     #filters {{ display: flex; flex-direction: column; }}
     .category-filter {{ margin: 5px 0; }}
-    table {{ display: block; overflow-x: auto; }}
-    th, td {{ white-space: nowrap; }}
+    table {{ display: block; width: 100%; }}
+    th, td {{ white-space: normal; }}
 }}
 </style>
 </head>
@@ -86,6 +116,7 @@ a:hover {{ text-decoration: underline; }}
   <strong>Filter by category:</strong><br>
   {filters_html}
 </div>
+<div class="table-container">
 <table id="workouts">
   <thead>
     <tr>
@@ -100,6 +131,7 @@ a:hover {{ text-decoration: underline; }}
   </thead>
   <tbody>{rows_html}</tbody>
 </table>
+</div>
 <script>
 function filter() {{
   const selected = [...document.querySelectorAll('#filters input:checked')].map(c => c.value);
