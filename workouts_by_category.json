@@ -1,0 +1,2909 @@
+{
+  "Shortfin Squid": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/5/16/shortfin-squid",
+    "TotalDistance": 900
+  },
+  "Sea Otter": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Easy"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/3/26/sea-otter",
+    "TotalDistance": 800
+  },
+  "Scaly Foot Snail": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/12/16/hydrothermal-vent-snail",
+    "TotalDistance": 1000
+  },
+  "Sea Gooseberry": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Easy",
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2019/1/31/sea-gooseberry",
+    "TotalDistance": 500
+  },
+  "Christmas Tree Worm": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/12/7/christmas-tree-worm",
+    "TotalDistance": 900
+  },
+  "Acorn Barnacle": {
+    "Distance": [
+      "0-1000",
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Breaststroke"
+    ],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/29/acorn-barnacle",
+    "TotalDistance": 1000
+  },
+  "Chimera": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Easy",
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/8/chimera",
+    "TotalDistance": null
+  },
+  "Cushion Star": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/5/cushion-star",
+    "TotalDistance": null
+  },
+  "Leopard Wrasse": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Short course",
+      "Sprint"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/3/lbssda5uga81ko60xslt6093qqsxk1",
+    "TotalDistance": 900
+  },
+  "Marine Toad": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/8/26/marine-toad",
+    "TotalDistance": 800
+  },
+  "Bubblegum Coral": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/8/23/bubblegum-coral",
+    "TotalDistance": 900
+  },
+  "Atlantic Wolffish": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Triathlon"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/8/14/atlantic-wolffish",
+    "TotalDistance": 800
+  },
+  "Hawksbill Turtle": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Triathlon"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/8/14/hawksbill-turtle",
+    "TotalDistance": 900
+  },
+  "Banded Butterfly Fish": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/8/6/banded-butterfly-fish",
+    "TotalDistance": 500
+  },
+  "Red-legged Cormorant": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Breaststroke"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/8/6/red-legged-cormorant",
+    "TotalDistance": 700
+  },
+  "Sand Dollar": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/7/31/sand-dollar",
+    "TotalDistance": null
+  },
+  "Gentoo Penguin": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Backstroke"
+    ],
+    "Other": [
+      "Easy",
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/7/30/8vv8mco2smbliyz0jkl1mt51c8rbyv",
+    "TotalDistance": 1000
+  },
+  "Flashlight Fish": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/7/21/flashlight-fish",
+    "TotalDistance": 700
+  },
+  "White Shrimp": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Stroke"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/6/23/white-shrimp",
+    "TotalDistance": 900
+  },
+  "Frilled Shark": {
+    "Distance": [
+      "0-1000",
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/5/30/frilled-shark",
+    "TotalDistance": 1000
+  },
+  "Barrel Sponge": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/5/30/barrel-sponge",
+    "TotalDistance": 900
+  },
+  "Whiptail Gulper": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/5/30/whiptail-gulper",
+    "TotalDistance": 900
+  },
+  "Skipjack Tuna": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/5/30/skipjack-tuna",
+    "TotalDistance": 800
+  },
+  "Krill": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [
+      "No Bases",
+      "Sprint"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/5/11/krill",
+    "TotalDistance": 800
+  },
+  "Emperor Shrimp": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/5/11/emperor-shrimp",
+    "TotalDistance": 800
+  },
+  "Barnacle": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Easy",
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/5/11/barnacle",
+    "TotalDistance": 600
+  },
+  "Anchovy": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Easy",
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/5/11/anchovy",
+    "TotalDistance": 600
+  },
+  "Angelfish": {
+    "Distance": [
+      "0-1000",
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Easy"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/5/6/angelfish",
+    "TotalDistance": 1000
+  },
+  "Seahorse": {
+    "Distance": [
+      "0-1000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Easy"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/3/15/seahorse",
+    "TotalDistance": 900
+  },
+  "Sea Bunny": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/2/22/sea-bunny",
+    "TotalDistance": 1200
+  },
+  "Marrus Orthocanna": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/2/16/marrus-orthocanna",
+    "TotalDistance": 1750
+  },
+  "Red Spotted Blenny": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2021/2/16/red-spotted-blenny",
+    "TotalDistance": 1600
+  },
+  "Squirrelfish": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2021/2/16/squirrelfish",
+    "TotalDistance": 1400
+  },
+  "Clownfish": {
+    "Distance": [
+      "1000-2000",
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Stroke"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2019/9/19/clownfish",
+    "TotalDistance": 2000
+  },
+  "Hairy Frogfish": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2019/9/30/hairy-frogfish",
+    "TotalDistance": 1300
+  },
+  "Sea Pen": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2019/9/30/sea-pen",
+    "TotalDistance": 1800
+  },
+  "Anglerfish": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2019/9/18/anglerfish",
+    "TotalDistance": 2000
+  },
+  "Juvenile Emperor Angelfish": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "IM",
+      "Stroke"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2019/9/19/juvenile-emperor-angelfish",
+    "TotalDistance": 1900
+  },
+  "Lizard Island Octopus": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/12/16/lizard-island-octopus",
+    "TotalDistance": 1100
+  },
+  "Leafy Seadragon": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [
+      "No Bases",
+      "Triathlon"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/12/16/leafy-seadragon",
+    "TotalDistance": 1150
+  },
+  "Squidworm": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/12/7/squidworm",
+    "TotalDistance": 1400
+  },
+  "Argentine Shortfin Squid": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Breaststroke"
+    ],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/29/argentine-shortfin-squid",
+    "TotalDistance": 1500
+  },
+  "Caribbean Spiny Lobster": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/29/caribbean-spiny-lobster",
+    "TotalDistance": 1100
+  },
+  "Gray Seal": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/9/25/gray-seal",
+    "TotalDistance": 1000
+  },
+  "Bicolored Parrotfish": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/12/bicolored-parrotfish",
+    "TotalDistance": 1200
+  },
+  "African Basslet": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Open Water",
+      "Triathlon"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/3/african-basslet",
+    "TotalDistance": 1400
+  },
+  "Australian Angelshark": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "No Bases",
+      "Pull"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/3/wcv9j8m7dg3ic9qbya1cnkwxij1kzw",
+    "TotalDistance": 1600
+  },
+  "Yellow Headed Jawfish": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [
+      "No Bases",
+      "Technique"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/1/yellow-headed-jawfish",
+    "TotalDistance": 1200
+  },
+  "Atlantic Cod": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Triathlon"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/8/26/atlantic-cod",
+    "TotalDistance": 1200
+  },
+  "Green Turtle": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/8/16/green-turtle",
+    "TotalDistance": 1200
+  },
+  "Juan Fernandez Fur Seal": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/8/14/juan-fernandez-fur-seal",
+    "TotalDistance": 1500
+  },
+  "Dumbo Octopus": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/8/14/dumbo-octopus",
+    "TotalDistance": 2000
+  },
+  "Harp Seal": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [],
+    "Other": [
+      "No Bases",
+      "Triathlon"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/8/14/harp-seal",
+    "TotalDistance": 1200
+  },
+  "Flatback Turtle": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Breaststroke"
+    ],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/7/30/flatback-turtle",
+    "TotalDistance": 1300
+  },
+  "Chambered Nautilus": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Breaststroke"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/7/24/chambered-nautilus",
+    "TotalDistance": 1600
+  },
+  "Wahoo (Find Your Base - Intermediate)": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/6/24/wahoo-find-your-base-intermediate",
+    "TotalDistance": 1400
+  },
+  "Bluebanded Goby": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Sprint"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/6/24/bluebanded-goby",
+    "TotalDistance": 1700
+  },
+  "Red King Crab": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Stroke"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/6/24/red-king-crab",
+    "TotalDistance": 1800
+  },
+  "Tiger Prawn": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/6/23/tiger-prawn",
+    "TotalDistance": 1200
+  },
+  "Granulated Sea Star": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/6/23/cushion-star",
+    "TotalDistance": 1700
+  },
+  "Porcupine Ray": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/5/20/porcupine-ray",
+    "TotalDistance": 1600
+  },
+  "Atlantic Trumpetfish": {
+    "Distance": [
+      "1000-2000"
+    ],
+    "Difficulty": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/5/15/sappitjvcyb3pw7hmagslk9wq2da7f",
+    "TotalDistance": 1500
+  },
+  "Slender Snipe Eel": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2021/9/13/slender-snipe-eel",
+    "TotalDistance": 2650
+  },
+  "Halimeda Ghost Pipefish": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Mid Distance",
+      "Pull"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/9/13/halimeda-ghost-pipefish",
+    "TotalDistance": 2800
+  },
+  "Jawfish": {
+    "Distance": [
+      "2000-3000",
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2021/2/16/jawfish",
+    "TotalDistance": 3000
+  },
+  "Enypniastes Eximia": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2021/3/29/enypniastes-eximia",
+    "TotalDistance": 2900
+  },
+  "Brittle Star": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Stroke"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2021/3/29/brittle-star",
+    "TotalDistance": 2300
+  },
+  "Coconut Octopus": {
+    "Distance": [
+      "2000-3000",
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2021/3/29/coconut-octopus",
+    "TotalDistance": 3000
+  },
+  "Telescope Octopus": {
+    "Distance": [
+      "2000-3000",
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Mid Distance",
+      "Short course"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/3/1/telescope-octopus",
+    "TotalDistance": 3000
+  },
+  "Polkdot Nudibranch": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Stroke"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2021/2/22/polkdot-nudibranch",
+    "TotalDistance": 2900
+  },
+  "Clown Frogfish": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [
+      "Short course"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/2/22/clown-frogfish",
+    "TotalDistance": 2300
+  },
+  "Red Handfish": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Mid Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2019/9/30/red-handfish",
+    "TotalDistance": 2600
+  },
+  "Threadfin Butterflyfish": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Curreri Workouts"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2019/9/19/threadfin-butterflyfish",
+    "TotalDistance": 2600
+  },
+  "Regal Tang": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Butterfly",
+      "Stroke"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2019/9/19/regal-tang",
+    "TotalDistance": 200023002750
+  },
+  "Venus Flytrap Anemone": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Butterfly"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2019/2/23/venus-flytrap-anemone",
+    "TotalDistance": 2200
+  },
+  "Mandarinfish": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Butterfly",
+      "Stroke"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2019/9/19/mandarinfish",
+    "TotalDistance": 2500
+  },
+  "Napoleon Wrasse": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Backstroke"
+    ],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/12/16/napoleon-wrasse",
+    "TotalDistance": 2700
+  },
+  "Pycnogonid Sea Spider": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Open Water",
+      "Triathlon"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/12/16/pycnogonid-sea-spider",
+    "TotalDistance": 2000
+  },
+  "Sea Angel": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "No Bases",
+      "Triathlon"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/12/7/sea-angel",
+    "TotalDistance": 2300
+  },
+  "Crossota Norvegica Jellyfish": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [
+      "No Bases",
+      "Triathlon"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/12/7/crossota-norvegica-jellyfish",
+    "TotalDistance": 2600
+  },
+  "Acadian Redfish": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/12/7/acadian-redfish",
+    "TotalDistance": 2300
+  },
+  "Adorned Wrasse": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/10/18/adorned-wrasse",
+    "TotalDistance": 2500
+  },
+  "Yellow Tube Sponge": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/9/29/yellow-tube-sponge",
+    "TotalDistance": 2200
+  },
+  "Horseshoe Crab": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Mid Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/29/horseshoe-crab",
+    "TotalDistance": 2300
+  },
+  "Gigantic Triton": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "IM",
+      "Stroke"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/9/25/t964hgyq91j0e9hi2ufkrk4h1bol4z",
+    "TotalDistance": 2100
+  },
+  "Crown of Thorns Starfish": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/9/8/crown-of-thorns-starfish",
+    "TotalDistance": 2100
+  },
+  "Common Torpedo": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Triathlon"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/5/common-torpedo",
+    "TotalDistance": 2600
+  },
+  "Tripod Spiderfish": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Stroke"
+    ],
+    "Other": [
+      "Short course"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/1/9fsqx0bljc414s1mkgamrx6grv5o3f",
+    "TotalDistance": 2900
+  },
+  "Flounder": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Butterfly",
+      "Stroke"
+    ],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/8/23/zap8brri9507dtydighy17afi5l1ay",
+    "TotalDistance": 2200
+  },
+  "Little Auk": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Sprint"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/8/6/little-auk",
+    "TotalDistance": 2900
+  },
+  "Oarfish (Find Your Base - Advanced)": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/6/24/oarfish-find-your-base-advanced",
+    "TotalDistance": 2700
+  },
+  "Beluga Sturgeon": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/6/24/beluga-sturgeon",
+    "TotalDistance": 2100
+  },
+  "Southern Blue-Ringed Octopus": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/6/24/southern-blue-ringed-octopus",
+    "TotalDistance": 2500
+  },
+  "Spanish Dancer": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/spanish-dancer",
+    "TotalDistance": 2700
+  },
+  "Lion Fish": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Sprint"
+    ],
+    "url": "https://www.swimdojo.com/workouts/lion-fish",
+    "TotalDistance": 2100
+  },
+  "Siamese Fighting Fish": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Steady State"
+    ],
+    "url": "https://www.swimdojo.com/workouts/siamese-fighting-fish",
+    "TotalDistance": 2000
+  },
+  "Hermit Crab": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/hermit-crab",
+    "TotalDistance": 2600
+  },
+  "Lions Mane Jellyfish": {
+    "Distance": [
+      "2000-3000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Sprint"
+    ],
+    "url": "https://www.swimdojo.com/workouts/lions-mane-jellyfish",
+    "TotalDistance": 2400
+  },
+  "Ravioli Starfish": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Mid Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/9/16/ravioli-starfish",
+    "TotalDistance": 3400
+  },
+  "Pacific Spiny Lumpsucker": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Mid Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/9/13/pacific-spiny-lumpsucker",
+    "TotalDistance": 3500
+  },
+  "Northern Stargazer": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Mid Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2019/9/30/northern-stargazer",
+    "TotalDistance": 3500
+  },
+  "Axolotl": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "IM",
+      "Stroke"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2021/2/22/axolotl",
+    "TotalDistance": 3000
+  },
+  "Bobtail Squid": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Sprint"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/3/1/bobtail-squid",
+    "TotalDistance": 3200
+  },
+  "Leaf Slug": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2021/2/22/leaf-slug",
+    "TotalDistance": 3300
+  },
+  "Red Lipped Batfish": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Curreri Workouts",
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/2/16/red-lipped-batfish",
+    "TotalDistance": 3500
+  },
+  "Arctic Hydromedusa": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2021/2/16/arctic-hydromedusa",
+    "TotalDistance": 3300
+  },
+  "Japanese Spider Crab": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Hard"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Curreri Workouts",
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/2/16/japanese-spider-crab",
+    "TotalDistance": 3300
+  },
+  "Porcupinefish": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Curreri Workouts"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/2/16/porcupinefish",
+    "TotalDistance": 3200
+  },
+  "Icefish": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Curreri Workouts",
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2019/10/2/icefish",
+    "TotalDistance": 3300
+  },
+  "Coelancanth": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Curreri Workouts",
+      "Distance",
+      "Steady State"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2019/9/18/coelancanth",
+    "TotalDistance": 3200
+  },
+  "Banggai Cardinalfish": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [
+      "Curreri Workouts"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2019/9/19/banggai-cardinalfish",
+    "TotalDistance": 3100
+  },
+  "Symphysodon Discus": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Stroke"
+    ],
+    "Other": [
+      "Curreri Workouts"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2019/9/19/symphysodon-discus",
+    "TotalDistance": 3500
+  },
+  "Blobfish": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2019/2/23/blobfish",
+    "TotalDistance": 3700
+  },
+  "Sixgill Shark": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Hard"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Curreri Workouts"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2019/9/18/sixgill-shark",
+    "TotalDistance": 3400
+  },
+  "Bioluminescent Octopus": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/12/7/bioluminescent-octopus",
+    "TotalDistance": 3900
+  },
+  "American Lobster": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Sprint"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/12/7/american-lobster",
+    "TotalDistance": 3600
+  },
+  "Giant Clam": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Hard"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Curreri Workouts",
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/12/7/giant-clam",
+    "TotalDistance": 3500
+  },
+  "Abbot's Booby": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/8/26/bei5t9fg1va11u6cw7of82bvmlb2y0",
+    "TotalDistance": 4000
+  },
+  "Stone Triggerfish": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/9/1/stone-triggerfish",
+    "TotalDistance": 4000
+  },
+  "Kemp's Ridley Turtle": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/8/26/kemps-ridley-turtle",
+    "TotalDistance": 3600
+  },
+  "Barndoor Skate": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Mid Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/8/26/barndoor-skate",
+    "TotalDistance": 3800
+  },
+  "Adelie Penguin": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "IM",
+      "Stroke"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/8/16/adelie-penguin",
+    "TotalDistance": 3900
+  },
+  "Atlantic Bluefin Tuna": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/8/16/atlantic-bluefin-tuna",
+    "TotalDistance": 3600
+  },
+  "Atlantic Puffin": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/8/14/atlantic-puffin",
+    "TotalDistance": 3200
+  },
+  "Common Fangtooth": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/6/24/common-fangtooth",
+    "TotalDistance": 3100
+  },
+  "Humboldt Squid": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/6/14/humboldt-squid",
+    "TotalDistance": 3900
+  },
+  "Blue Glaucus": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/6/13/blue-glaucus",
+    "TotalDistance": 3500
+  },
+  "Mako Shark": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Hard"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Sprint"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/5/20/mako-shark",
+    "TotalDistance": 3300
+  },
+  "Bearded Seal": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "IM",
+      "Stroke"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/5/15/bearded-seal",
+    "TotalDistance": 3200
+  },
+  "Dottyback": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/4/16/dottyback",
+    "TotalDistance": 3500
+  },
+  "Blue Crab": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Steady State",
+      "Triathlon"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/4/16/blue-crab",
+    "TotalDistance": 3500
+  },
+  "Albacore": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/4/16/albacore",
+    "TotalDistance": 3400
+  },
+  "Bottlenose Dolphin": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Steady State"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/4/15/bottlenosed-dolphin",
+    "TotalDistance": 3000
+  },
+  "Wobbegong Shark": {
+    "Distance": [
+      "3000-4000"
+    ],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Sprint"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/3/14/wobbegong-shark",
+    "TotalDistance": 3000
+  },
+  "Ocean Ravioli": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2021/9/16/ocean-ravioli",
+    "TotalDistance": 4100
+  },
+  "Munnopis Isopod": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/2/16/munnopis-isopod",
+    "TotalDistance": 4200
+  },
+  "Boxfish": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Sprint"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/2/22/boxfish",
+    "TotalDistance": 4500
+  },
+  "Smooth Trunkfish": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2021/2/22/smooth-trunkfish",
+    "TotalDistance": 4500
+  },
+  "Terrible Claw Lobster": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Stroke"
+    ],
+    "Other": [
+      "Curreri Workouts"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2019/9/30/terrible-claw-lobster",
+    "TotalDistance": 4100
+  },
+  "Sea Pig": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2019/10/2/sea-pig",
+    "TotalDistance": 4300
+  },
+  "Halitrephes Massi Jellyfish": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2019/9/30/halitrephes-massi-jellyfish",
+    "TotalDistance": 4500
+  },
+  "Moorish Idol": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Mid Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2019/9/19/moorish-idol",
+    "TotalDistance": 4600
+  },
+  "Ribbon Eel": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2019/9/30/ribbon-eel",
+    "TotalDistance": 4200
+  },
+  "Vampire Squid": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/12/7/vampire-squid",
+    "TotalDistance": 4100
+  },
+  "Lysianassoid Amphipod": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Backstroke"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/12/16/lysianassoid-amphipod",
+    "TotalDistance": 4700
+  },
+  "Bobbit Worm": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Triathlon"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/12/7/bobbit-worm",
+    "TotalDistance": 4500
+  },
+  "Pink See Through Fantasia": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Stroke"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/12/7/pink-see-through-fantasia",
+    "TotalDistance": 4000
+  },
+  "Cockscomb Cup Coral": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/10/18/cockscomb-cup-coral",
+    "TotalDistance": 4400
+  },
+  "Peacock Mantis Shrimp": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Sprint"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/29/peacock-mantis-shrimp",
+    "TotalDistance": 4000
+  },
+  "Rainbow Wrasse": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/9/29/rainbow-wrasse",
+    "TotalDistance": 4400
+  },
+  "Giant Caribbean Sea Aneome": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/9/25/giant-caribbean-sea-aneome",
+    "TotalDistance": 4400
+  },
+  "Loggerhead Turtle": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/9/8/loggerhead-turtle",
+    "TotalDistance": 420023200
+  },
+  "Japanese Flying Fish": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/1/japanese-flying-fish",
+    "TotalDistance": 4900
+  },
+  "Leopard Seal": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Mid Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/8/6/leopard-seal",
+    "TotalDistance": 4500
+  },
+  "Acute-Jawed Mullet": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/9/3/acute-jawed-mullet",
+    "TotalDistance": 4100
+  },
+  "Marine Iguana": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Stroke"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/8/3/marine-iguana",
+    "TotalDistance": 4200
+  },
+  "Ocean Sunfish": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/7/24/dr1lm7ri87m6thcyyn97e8oxc2ucuh",
+    "TotalDistance": 4600
+  },
+  "Broadclub Cuttlefish": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/7/21/broadclub-cuttlefish",
+    "TotalDistance": 4200
+  },
+  "Fin Whale": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Sprint"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/7/18/fin-whale",
+    "TotalDistance": 4200
+  },
+  "Moon Jelly": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Recovery"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/7/17/moon-jelly",
+    "TotalDistance": 4200
+  },
+  "Chilean Basket Star": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/6/13/chilean-basket-star",
+    "TotalDistance": 4500
+  },
+  "Dragonfish": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/5/27/dragonfish",
+    "TotalDistance": 4600
+  },
+  "Spiny Dogfish": {
+    "Distance": [
+      "4000-5000"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Hard"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Steady State"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/5/20/spiny-dogfish",
+    "TotalDistance": 4400
+  },
+  "Goblin Shark": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2025/5/19/goblin-shark",
+    "TotalDistance": 6000
+  },
+  "Box Crab": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/2/16/box-crab",
+    "TotalDistance": 6000
+  },
+  "Thornback Cowfish": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Hard"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/2/16/thornback-cowfish",
+    "TotalDistance": null
+  },
+  "Cheerleader Crab": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Hard",
+      "Insane"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/3/1/cheerleader-crab",
+    "TotalDistance": 10000
+  },
+  "Coffinfish": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Hard"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/2/16/coffinfish",
+    "TotalDistance": 7200
+  },
+  "Viperfish": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Hard"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2019/9/30/viperfish",
+    "TotalDistance": 7600
+  },
+  "Feather Star": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2019/10/2/feather-star",
+    "TotalDistance": 5000
+  },
+  "Gulper Eel": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Butterfly"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2019/9/18/gulper-eel",
+    "TotalDistance": 5400
+  },
+  "Giant Isopod": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Curreri Workouts",
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2019/9/18/giant-isopod",
+    "TotalDistance": 5400
+  },
+  "Sea Nettles": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2019/2/23/sea-nettles",
+    "TotalDistance": 5100
+  },
+  "Giant Kelp": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/12/7/giant-kelp",
+    "TotalDistance": 5300
+  },
+  "Bowhead Whale": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance",
+      "Triathlon"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/11/bowhead-whale",
+    "TotalDistance": 5100
+  },
+  "Beluga Whale": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/3/beluga-whale",
+    "TotalDistance": 5000
+  },
+  "Caribbean Reef Octopus": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Distance",
+      "Triathlon"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/8/2/caribbean-reef-octopus",
+    "TotalDistance": 5500
+  },
+  "Flamingo Tongue": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Mid Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/8/1/flamingo-tongue",
+    "TotalDistance": 5600
+  },
+  "Blue Marlin": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/6/23/blue-marlin",
+    "TotalDistance": 5300
+  },
+  "Flameback Nudibranch": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Hard"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/6/13/flameback",
+    "TotalDistance": 5000
+  },
+  "Spinner Shark": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Advanced",
+      "Hard"
+    ],
+    "Stroke": [],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/5/27/spinner-shark",
+    "TotalDistance": 7400
+  },
+  "Megamouth Shark": {
+    "Distance": [
+      "5000+"
+    ],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/5/20/megamouth-shark",
+    "TotalDistance": 5100
+  },
+  "Flying Gurnard": {
+    "Distance": [],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance",
+      "Pull"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/3/29/flying-gurnard",
+    "TotalDistance": 4400
+  },
+  "Hourglass Dolphin": {
+    "Distance": [],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [],
+    "Other": [
+      "Open Water",
+      "Triathlon"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/8/1/hourglass-dolphin",
+    "TotalDistance": null
+  },
+  "Bull Shark": {
+    "Distance": [],
+    "Difficulty": [
+      "Advanced",
+      "Hard"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Mid Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/6/18/bull-shark",
+    "TotalDistance": 5600
+  },
+  "Basking Shark": {
+    "Distance": [],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "IM"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/6/17/basking-shark",
+    "TotalDistance": 4800
+  },
+  "Dugong (Sea Cow)": {
+    "Distance": [],
+    "Difficulty": [
+      "Advanced",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/4/16/dugong-sea-cow",
+    "TotalDistance": null
+  },
+  "Yellow-Lipped Sea Krait": {
+    "Distance": [],
+    "Difficulty": [
+      "Advanced"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Timed Swim"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/4/15/sea-snake",
+    "TotalDistance": null
+  },
+  "Pinecone Fish": {
+    "Distance": [],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Steady State",
+      "Timed Swim"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/9/13/pinecone-fish",
+    "TotalDistance": null
+  },
+  "Flapjack Octopus": {
+    "Distance": [],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2021/3/1/flapjack-octopus",
+    "TotalDistance": 1400
+  },
+  "Clown Triggerfish": {
+    "Distance": [],
+    "Difficulty": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [
+      "Distance",
+      "Recovery",
+      "Steady State"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2019/9/19/clown-triggerfish",
+    "TotalDistance": null
+  },
+  "Guppy (Find Your Base - Beginner)": {
+    "Distance": [],
+    "Difficulty": [
+      "Beginner"
+    ],
+    "Stroke": [
+      "Freestyle"
+    ],
+    "Other": [],
+    "url": "https://www.swimdojo.com/workouts/2018/5/10/guppy-find-your-base",
+    "TotalDistance": 500
+  },
+  "Sea Wasp": {
+    "Distance": [],
+    "Difficulty": [
+      "Intermediate"
+    ],
+    "Stroke": [
+      "Butterfly"
+    ],
+    "Other": [
+      "No Bases"
+    ],
+    "url": "https://www.swimdojo.com/workouts/2018/9/10/sea-wasp",
+    "TotalDistance": null
+  }
+}
