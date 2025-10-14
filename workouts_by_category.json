@@ -104,7 +104,7 @@
       "No Bases"
     ],
     "url": "https://www.swimdojo.com/workouts/2018/9/8/chimera",
-    "TotalDistance": null
+    "TotalDistance": 900
   },
   "Cushion Star": {
     "Distance": [
@@ -120,7 +120,7 @@
       "No Bases"
     ],
     "url": "https://www.swimdojo.com/workouts/2018/9/5/cushion-star",
-    "TotalDistance": null
+    "TotalDistance": 700
   },
   "Leopard Wrasse": {
     "Distance": [
@@ -239,7 +239,7 @@
       "No Bases"
     ],
     "url": "https://www.swimdojo.com/workouts/2018/7/31/sand-dollar",
-    "TotalDistance": null
+    "TotalDistance": 800
   },
   "Gentoo Penguin": {
     "Distance": [
@@ -2818,7 +2818,7 @@
       "Distance"
     ],
     "url": "https://www.swimdojo.com/workouts/2018/4/16/dugong-sea-cow",
-    "TotalDistance": null
+    "TotalDistance": 3100
   },
   "Yellow-Lipped Sea Krait": {
     "Distance": [],
@@ -2832,7 +2832,7 @@
       "Timed Swim"
     ],
     "url": "https://www.swimdojo.com/workouts/2018/4/15/sea-snake",
-    "TotalDistance": null
+    "TotalDistance": 290020
   },
   "Pinecone Fish": {
     "Distance": [],
@@ -2878,7 +2878,7 @@
       "Steady State"
     ],
     "url": "https://www.swimdojo.com/workouts/2019/9/19/clown-triggerfish",
-    "TotalDistance": null
+    "TotalDistance": 2000
   },
   "Guppy (Find Your Base - Beginner)": {
     "Distance": [],
@@ -2904,6 +2904,6 @@
       "No Bases"
     ],
     "url": "https://www.swimdojo.com/workouts/2018/9/10/sea-wasp",
-    "TotalDistance": null
+    "TotalDistance": 2300
   }
 }

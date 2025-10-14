@@ -30,7 +30,6 @@ CACHE_JSON = Path("total_distance_cache.json")
 # Data Retrieval and Parsing
 # --------------------------------------------------------------------------- #
 def fetch_archive_html(url: str) -> BeautifulSoup:
-    """Retrieve and parse the Swim Dojo archive page into a BeautifulSoup object."""
     response = requests.get(url, timeout=10)
     if response.status_code != 200:
         sys.exit(f"❌ Failed to retrieve {url}. Status code: {response.status_code}")
@@ -38,13 +37,6 @@ def fetch_archive_html(url: str) -> BeautifulSoup:
 
 
 def extract_workouts_by_category(soup: BeautifulSoup) -> tuple[Dict[str, List[str]], Dict[str, str]]:
-    """
-    Extract workouts grouped by category and track each workout's link.
-
-    Returns:
-        by_category: dict of {category: [workout_names]}
-        workout_links: dict of {workout_name: url}
-    """
     by_category: Dict[str, List[str]] = {}
     workout_links: Dict[str, str] = {}
 
@@ -84,7 +76,6 @@ def save_cache(cache: dict) -> None:
 
 
 def fetch_workout_total(url: str, cache: dict, name: str) -> int | None:
-    """Fetch the workout page and extract total distance if available, using cache."""
     if name in cache:
         return cache[name]
     try:
@@ -92,12 +83,10 @@ def fetch_workout_total(url: str, cache: dict, name: str) -> int | None:
         if resp.status_code != 200:
             return None
         soup = BeautifulSoup(resp.text, "html.parser")
-        # Look for <p> tags containing 'TOTAL:'
         total_distance = None
         for p in soup.find_all("p"):
             text = p.get_text(strip=True)
             if "TOTAL:" in text.upper():
-                # Extract the first number found
                 digits = "".join(c for c in text if c.isdigit())
                 if digits:
                     total_distance = int(digits)
@@ -108,12 +97,10 @@ def fetch_workout_total(url: str, cache: dict, name: str) -> int | None:
         return None
 
 
-
 # --------------------------------------------------------------------------- #
 # Data Transformation
 # --------------------------------------------------------------------------- #
 def invert_category_mapping(by_category: Dict[str, List[str]]) -> Dict[str, List[str]]:
-    """Convert {category: [workouts]} → {workout: [categories]}."""
     by_workout = defaultdict(set)
     for category, workouts in by_category.items():
         for workout in workouts:
@@ -122,7 +109,6 @@ def invert_category_mapping(by_category: Dict[str, List[str]]) -> Dict[str, List
 
 
 def merge_workout_data(by_workout: Dict[str, List[str]], links: Dict[str, str], cache: dict) -> Dict[str, dict]:
-    """Attach URLs, category columns, and total distance to each workout’s data."""
     data = {}
     for name, cats in by_workout.items():
         url = links.get(name)
@@ -145,7 +131,6 @@ def merge_workout_data(by_workout: Dict[str, List[str]], links: Dict[str, str], 
 # HTML Generation
 # --------------------------------------------------------------------------- #
 def categorize_filters(categories: List[str]) -> Dict[str, List[str]]:
-    """Group categories into logical sections."""
     distance = [c for c in categories if any(x in c for x in ("-", "+"))]
     difficulty_order = ["Beginner", "Intermediate", "Advanced", "Hard", "Insane"]
     difficulty = [c for c in difficulty_order if c in categories]
@@ -160,11 +145,9 @@ def categorize_filters(categories: List[str]) -> Dict[str, List[str]]:
 
 
 def build_html(data: Dict[str, dict]) -> str:
-    """Create an HTML table page with grouped category filters."""
     all_categories = sorted({c for v in data.values() for c in v["Distance"] + v["Difficulty"] + v["Stroke"] + v["Other"]})
     grouped = categorize_filters(all_categories)
 
-    # Build filters by section
     filters_html = ""
     for section, cats in grouped.items():
         if not cats:
@@ -176,7 +159,6 @@ def build_html(data: Dict[str, dict]) -> str:
                 f'<input type="checkbox" value="{c}" onchange="filter()"> {c}</label>\n'
             )
 
-    # Build table rows
     rows_html = ""
     for name, info in sorted(data.items()):
         link = info["url"]
@@ -207,10 +189,18 @@ body {{ font-family: sans-serif; margin: 20px; }}
 table {{ border-collapse: collapse; width: 100%; }}
 th, td {{ border: 1px solid #ccc; padding: 6px; text-align: left; }}
 th {{ background: #f5f5f5; }}
-.category-filter {{ margin: 5px; }}
+.category-filter {{ display: inline-block; margin: 5px 10px 5px 0; font-size: 1.1em; }}
+.category-filter input {{ transform: scale(1.5); margin-right: 8px; vertical-align: middle; }}
 .hidden {{ display: none; }}
 a {{ color: #0073e6; text-decoration: none; }}
 a:hover {{ text-decoration: underline; }}
+
+@media (max-width: 600px) {{
+    #filters {{ display: flex; flex-direction: column; }}
+    .category-filter {{ margin: 5px 0; }}
+    table {{ display: block; overflow-x: auto; }}
+    th, td {{ white-space: nowrap; }}
+}}
 </style>
 </head>
 <body>
@@ -256,19 +246,18 @@ function filter() {{
 # Main Entry
 # --------------------------------------------------------------------------- #
 def main() -> None:
-    """Main entry point."""
     print("Starting")
     cache = load_cache()
     print("Cache Loaded")
     soup = fetch_archive_html(ARCHIVE_URL)
     print("Archive Fetched")
     by_category, workout_links = extract_workouts_by_category(soup)
-    print("extracted workouts by category")
+    print("Extracted workouts by category")
     by_workout = invert_category_mapping(by_category)
-    print("inverted category mapping")
+    print("Inverted category mapping")
 
     full_data = merge_workout_data(by_workout, workout_links, cache)
-    print("merged workout data")
+    print("Merged workout data")
     save_cache(cache)
     print("Saved cache")
     
