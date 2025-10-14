@@ -116,6 +116,9 @@ td.summary[data-truncated="true"]:hover::after {{
   <strong>Filter by category:</strong><br>
   {filters_html}
 </div>
+
+<div id="workout-count" style="margin:10px 0; font-weight:bold;">Total Workouts: {len(data)}</div>
+
 <div class="table-container">
 <table id="workouts">
   <thead>
@@ -132,10 +135,12 @@ td.summary[data-truncated="true"]:hover::after {{
   <tbody>{rows_html}</tbody>
 </table>
 </div>
+
 <script>
 function filter() {{
   const selected = [...document.querySelectorAll('#filters input:checked')].map(c => c.value);
   const rows = document.querySelectorAll('#workouts tbody tr');
+  let visibleCount = 0;
   rows.forEach(r => {{
     const cats = [
         r.cells[1].innerText,
@@ -144,8 +149,11 @@ function filter() {{
         r.cells[4].innerText
     ].join(',').split(',').map(c => c.trim()).filter(Boolean);
     const match = selected.every(s => cats.includes(s));
-    r.classList.toggle('hidden', selected.length && !match);
+    const hidden = selected.length && !match;
+    r.classList.toggle('hidden', hidden);
+    if (!hidden) visibleCount += 1;
   }});
+  document.getElementById("workout-count").innerText = "Total Workouts: " + visibleCount;
 }}
 </script>
 </body>
